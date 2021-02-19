@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Terra's Garden</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="myscripts.js"></script>
+</head>
+<body>
+	<h1 class="header">Terra's Garden</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="product.html">Products</a></li>
+			<li><a href="subscribe.html">Subscription</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<div id="content">
+	<h2 id= "heading">Subscribe now!!!</h2>
+	<!-- Images used to fill up the empty space on the webpage. Alt text in case image isn't found. -->
+	<img src="box.jpg" alt="Fruit_Vege_Box" align="right" hspace="5" height="250" width="450">
+	<img src="cartoon.jpg" alt="Delivery_Process_Cartoon" align="right" hspace="5" height="250" width="450">
+	<!-- Forms created the text boxes for users to type in there personal details when signing up for the subscription -->
+	<h3>Full Name:</h3>
+	<form name="confirm">
+		<input type="text" name="name">
+	</form>
+    
+    <h3>Age:</h3>
+	<form name="approve">
+		<input type="number" name="age">
+	</form>
+    
+    <h3>Address:</h3>
+	<form name="check">
+		<input type="text" name="address">
+	</form>
+	<!-- Used a select for picking a region to save some space. -->
+	<h3>Region:</h3>
+	<select name="region">
+		<option value="Northland" checked>Northland</option>
+		<option value="Auckland" checked>Auckland</option>
+		<option value="Waikato" checked>Waikato</option>
+		<option value="Bay of Plenty" checked>Bay of Plenty</option>
+		<option value="Gisborne" checked>Gisborne</option>
+		<option value="Taranaki" checked>Taranaki</option>
+		<option value="Hawke's Bay" checked>Hawke's Bay</option>
+		<option value="Wanganui" checked>Wanganui</option>
+		<option value="Wellington" checked>Wellington</option>
+		<option value="Nelson" checked>Nelson</option>
+		<option value="Tasman" checked>Tasman</option>
+		<option value="Marlborough" checked>Marlborough</option>
+		<option value="West Coast" checked>West Coast</option>
+		<option value="Canterbury" checked>Canterbury</option>
+		<option value="Otago" checked>Otago</option>
+		<option value="Southland" checked>Southland</option>
+	</select>
+	<!-- Added a button that when pressed it calls the validateDetails method in the javascript file. -->
+	<button type="button" onclick="validateDetails()">Submit details</button>
+	
+	<footer>
+		<p id="year"></p>
+	</footer>
+</div>
+</body>
+</html>
+<!-- Image Refrences:
+     http://sonomafruitveggie.com/wp-content/uploads/2016/11/veg-cartoon-w-text.jpg
+     http://www.cambridgefruitcompany.com/img/banner-fruit-veg-box.jpg -->

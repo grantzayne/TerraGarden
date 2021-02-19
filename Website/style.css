@@ -1,0 +1,111 @@
+/* Changes text with span tags to red and bold */
+span{
+	color:red;
+	font-weight: bold;
+}
+/* Creates the background image and sizes of the image and nav fonts */
+body{
+	background-image: url("produce.jpg");/* alt="produce" */
+	background-size: auto;
+	margin:0;
+	padding:0;
+	font-family:Fondamento, verdana, arial, helvetica, sans-serif;
+	font-size:13px;
+}
+/* Changes all html code with the class header. Text goes to the center and changes font
+style and size. */
+.header{
+	text-align: center;
+	height: 35px;
+	font-family: "Times New Roman", Times, serif;
+	font-size:50px;
+	font-weight: bold;
+}
+/* Changes all html code with the id heading. Text goes to the center and is underlined. */
+#heading{
+	text-align: center;
+	text-decoration: underline;
+}
+/* Moves the navigation list to the center. */
+nav ul {
+	text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* Makes the nav list horizontal and seperates each link. */
+nav ul li {
+	display: inline;
+    list-style: none;
+    margin: 0 2.5em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+/* Makes a circuler box around each link. Stops the blue underlining. */
+nav ul li a {
+	padding:0 30px;
+	color: #000000;
+	text-align:center;
+	text-decoration:none;
+	border: 1px solid #000000;
+	margin: 5px 0px;
+	border-radius: 8px;
+	box-shadow: rgba(0,0,0,.8) 1px 1px 3px ;
+}
+/* put color inside navigation buttons */
+nav ul a:link, nav ul a:visited {
+	background: rgba(0,153,255,1);
+}
+/* When in hover change text colour to white  */
+nav ul li a:hover {
+    color: #fff;
+}
+/* When in hover or focus states change colour of button colour */
+nav ul a:hover, nav ul a:active, nav ul a:focus {
+	background: rgba(0,173,255,1);
+}
+/* Changes all html code that is included with the div id="content" tags. Put all the content
+into a green box and changes the font size and style. */
+#content{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:left;
+	margin-top: 50px;
+	border:5px solid #000000;
+	background-color: #00ac38;	
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: rgba(0,0,0, .6) 18px 13px 6px;
+	padding:10px;
+	font: 14px Domine,Verdana, Arial, Helvetica, sans-serif;
+}
+/* Gives the table a blue background and a thicker border around each block. */
+table,th,td{
+	border:2px solid #007726;
+	background-color: #00d9ff;
+}
+/* Moves the table to the center and slightly responsive */
+table{
+	width:60%;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+/* Moves video to the center of the page */
+#fruitsalad{
+    padding-top: 5px;
+    display: block;
+    margin: 0 auto;
+}
+/* Changes all html code with the footer tags. Includes the footer within the green box and
+changes the font size. */
+footer{
+	height:30px;
+	padding:5px;
+	text-align:center;
+	font-size: small;
+	background-color:#00ac38;
+	border-radius:  0px 0px 15px 15px;
+}
+/* Image Refrence:
+   https://images5.alphacoders.com/794/thumb-1920-794224.jpg */
